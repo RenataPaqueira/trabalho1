@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.painel-esquerda {
+  flex: 1;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 9;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.painel-direita-principal {
+  flex: 1;
+  font-size: 19px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: lightpink;
+}
+
+.mensagem {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.mensagem-biografia {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.mensagem h1 {
+  font-size: 100px; 
+}
+
+.opcoes {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.opcoes a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.opcoes a:hover {
+  background-color: lightgray;
+}
+
+.painel-direita-principal {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #251a2e;
+  color: lightpink;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
